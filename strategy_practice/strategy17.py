@@ -14,7 +14,7 @@ from pybrain.supervised import RPropMinusTrainer
 """"
 参考： https://www.ricequant.com/community/topic/2147/?utm_source=codingpy
 
-学习中
+学习中（利用神经网络的库）
 
 """
 
