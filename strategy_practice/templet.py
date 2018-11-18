@@ -33,7 +33,6 @@ def init(context):
 
 
 
-
 def handle_bar(context, bar_dict):
     pass
 
