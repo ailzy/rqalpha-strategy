@@ -75,7 +75,7 @@ def getReturn(stkList, bar_dict, context):
 
 
 def handle_bar(context, bar_dict):
-    now = context.now
+    now = context.tody
     if not (now.hour == 14 and now.minute >= 59) and now.hour != 15:
         popList = []
         for stk in context.curPflInfo.keys():
