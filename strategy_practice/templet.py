@@ -50,7 +50,7 @@ def before_trading(context):
         fundamentals.equity_valuation_indicator.market_cap<1e11
     ).order_by(
         fundamentals.equity_valuation_indicator.market_cap.asc()
-    ).limit(2500)
+    ).limit(10)
     df = get_fundamentals(q)
     context.allStocks = df.columns.values
 
