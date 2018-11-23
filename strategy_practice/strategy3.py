@@ -18,7 +18,6 @@ ETF基金： 华夏上证50ETF，代码：510050.XSHG
 
 借助了numpy的内置移动平均函数：rolling_mean
 
-参考： https://uqer.io/v3/community/share/554051bbf9f06c1c3d687fac
 
 """
 
